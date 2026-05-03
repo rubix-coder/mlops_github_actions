@@ -1,7 +1,7 @@
 """
 main.py  --  Pipeline Entry Point
 ==================================
-# Test run in GitHub actions
+# Test run in GitHub actions - @rubix-coder
 Runs the complete MLOps pipeline end-to-end.
 
     python main.py
