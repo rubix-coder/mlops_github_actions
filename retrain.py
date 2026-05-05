@@ -82,7 +82,7 @@ def retrain_finetune(model, X_new, y_new):
     """Warm-start: add trees on top of existing model using only new data."""
     print("\n  Strategy: FINETUNE (warm-start on selected batch only)")
     new_model = LGBMClassifier(
-        **{**LGBM_PARAMS, "n_estimators": 150, "init_model": model},
+        **{**LGBM_PARAMS, "n_estimators": 250, "init_model": model},
     )
     n_neg = int((y_new == 0).sum())
     n_pos = int((y_new == 1).sum())
