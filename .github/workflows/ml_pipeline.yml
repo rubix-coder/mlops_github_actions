@@ -17,9 +17,9 @@ name: ML Pipeline
 
 on:
   push:
-    branches: [main]
+    branches: [rubix-experiment]
   pull_request:
-    branches: [main]
+    branches: [rubix-experiment]
   workflow_dispatch:
 
 # ═══════════════════════════════════════════════════════════════════════════════
